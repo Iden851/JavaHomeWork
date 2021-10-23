@@ -15,9 +15,8 @@ public class Bingo {
 
 
         int attempt = 0;
-        int infinity = Integer.MAX_VALUE;
 
-        while (attempt < infinity) {
+        while (true) {
             attempt++;
             System.out.print("Введите число: ");
             int usersNumber = in.nextInt();
